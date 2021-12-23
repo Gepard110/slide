@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="slide.css" rel="stylesheet">
+    <title>slide test page</title>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+
+
+
+    <div class="container">
+
+        <div class="slider">
+      
+          <div class="slides">
+      
+            <!--  The last slide goes before the first one,
+              because the slideshow shows the second slide on load by default. -->
+            <div class="slides__img" id="" style="background-image: url('example_others.png')">
+              <div class="slides__img__filter"></div>
+              <div class="slide__caption">
+                <h1 class="slide__caption__title">SUSURU TV</h1>
+                <h2 class="slide__caption__subtitle">その他のゲーム</h2>
+                <h3 class="slide__caption__text">内田真礼コラボしてたから見て</h3>
+              </div>
+            </div>
+      
+            <div class="slides__img" id="" style="background-image: url('example_action.png')">
+              <div class="slides__img__filter"></div>
+              <div class="slide__caption">
+                <h1 class="slide__caption__title">らんだむちゃんの冒険</h1>
+                <h2 class="slide__caption__subtitle">アクションゲーム</h2>
+                <h3 class="slide__caption__text">雲の上になんたらかんたら</h3>
+              </div>
+            </div>
+      
+            <div class="slides__img" id="" style="background-image: url('example_boardgame.png')">
+              <div class="slides__img__filter"></div>
+              <div class="slide__caption">
+                <h1 class="slide__caption__title">ハニワ君の冒険</h1>
+                <h2 class="slide__caption__subtitle">ボードゲーム</h2>
+                <h3 class="slide__caption__text">オーブの力でなんたらかんたら</h3>
+              </div>
+            </div>
+      
+            <div class="slides__img" id="" style="background-image: url('example_towerdefence.png')">
+              <div class="slides__img__filter"></div>
+              <div class="slide__caption">
+                <h1 class="slide__caption__title">OTAWA DEFENCE</h1>
+                <h2 class="slide__caption__subtitle">タワーディフェンスゲーム</h2>
+                <h3 class="slide__caption__text">うんたらかんたら</h3>
+              </div>
+            </div>
+      
+          </div>
+      
+        </div>
+        <!-- / slider -->
+      
+        <!-- #Controls -->
+        <a class="control fas fa-chevron-left" id="prev"></a>
+        <a class="control fas fa-chevron-right" id="next"></a>
+      
+        <!-- #Position dots -->
+        <div class="dots">
+          <span class="dots__single" id=""></span>
+          <span class="dots__single" id=""></span>
+          <span class="dots__single" id=""></span>
+          <span class="dots__single" id=""></span>
+        </div>
+      
+      </div>
+      <!-- / slideshow -->
+
+
+      <script src="slide.js"></script>
+  </body>
+</html>
